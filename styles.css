@@ -139,15 +139,16 @@ i{
 
 }
 .title{
-    width: 100%;
-    border-bottom: 4px solid #42b549;
-    margin-bottom: 5px;
+    width: fit-content;
     font-family: Roboto;
     font-size: 2rem;
     font-weight: bold;
     padding-bottom: 5px;
 }
 .description{
+    padding-top: 5px;
+    width: fit-content;
+    border-top: 4px solid #42b549;
     font-size: 1.2rem;
     font-family: 'Roboto Slab', serif;
     font-weight: lighter;
@@ -205,7 +206,8 @@ h1{
 }
 #Gift-Card{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 5%;
     width: 100%;
     margin-bottom: 90px;
 }
@@ -270,10 +272,17 @@ footer{
 }
 
 /* media break-point */
-@media screen and (max-width: 1024px){
+@media screen and (max-width : 2560px){
+    :root{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1440px){
     :root{
         font-size: 13px;
     }
+}
+@media screen and (max-width: 1024px){
     #nav-bar{
         width: 50%;
     }
