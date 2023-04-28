@@ -116,6 +116,7 @@ input[type="submit"]:hover{
     grid-template-rows: repeat(3,1fr);
     height: 600px;
     width: 100%;
+    max-width: 1440px;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -148,6 +149,7 @@ i{
 .description{
     padding-top: 5px;
     width: fit-content;
+    max-width: 1440px;
     border-top: 4px solid #42b549;
     font-size: 1.2rem;
     font-family: 'Roboto Slab', serif;
